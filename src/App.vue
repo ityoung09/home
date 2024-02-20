@@ -100,19 +100,9 @@ onMounted(() => {
   let styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
   let styleContent = "color: rgb(30,152,255);";
   let title1 = "LibSept24_'主页";
-  let title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ /
-  | | | |\\/| |\\___ \\  \\   /    \\   /
- _| |_| |  | |____) |  | |      | |
-|_____|_|  |_|_____/   |_|      |_|`;
-  let content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
   console.info(
-    `%c${title1} %c${title2} %c${content}`,
-    styleTitle1,
-    styleTitle2,
-    styleContent
+    `%c${title1}`,
+    styleTitle1
   );
 });
 
